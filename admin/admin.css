@@ -1,0 +1,83 @@
+nav{
+    position: sticky; 
+     background-color: #03473e;
+     padding: 20px;
+     top: 0px;
+     text-align: center;
+ }
+ 
+ nav ul{
+     white-space: nowrap;
+     max-width: 1200px;
+     margin: 0 auto;
+ }
+ 
+ nav li{
+     width: 20%;
+     display: inline-block;
+     font-size: 24px;
+     text-align: center;
+ }
+ 
+ nav li a{
+     text-decoration: none;
+     color: #4b4b4b;
+ 
+ }
+
+
+ nav li a:hover{
+    text-decoration: underline;
+    background-color: grey;
+
+}
+
+
+
+
+
+
+table, th, td {
+    border: 1px solid black;
+  }
+
+
+
+
+
+  .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  /* Sidebar links */
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  /* Active/current link */
+  .sidebar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Links on mouse-over */
+  .sidebar a:hover:not(.active) {
+    background-color: lightskyblue;
+    color: white;
+  }
+  
+  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
