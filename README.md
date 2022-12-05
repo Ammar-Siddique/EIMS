@@ -1,6 +1,6 @@
 # EIMS
 ## Database project about University Management System
-### EIMS stands for Educational Management System
+### EIMS stands for Educational Institute Management System
 
 > **To run the project:**
 >>1.You first have to install XAMPP on your computer 
